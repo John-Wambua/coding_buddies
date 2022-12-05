@@ -41,6 +41,15 @@ int bubble_sort(int x[], int n)
 */
 int selection_sort(int x[])
 {
+    //use the naive approach in Bubble sort ...inverse-> O(n^2) bith best case and worst case -> the search will still take place
+}
+
+/**
+ * here, we insert an element according to its value, if x > j, then x will move ahead of j positionwise
+*/
+int insertion_sort(int x[])
+{
+    
 }
 
 int main(void)
