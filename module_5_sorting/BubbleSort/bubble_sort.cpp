@@ -38,20 +38,37 @@ int bubble_sort(int x[], int n)
 
 /**
  * traverse whole arrayto find smallest element
-*/
+ */
 int selection_sort(int x[])
 {
-    //use the naive approach in Bubble sort ...inverse-> O(n^2) bith best case and worst case -> the search will still take place
+    // use the naive approach in Bubble sort ...inverse-> O(n^2) bith best case and worst case -> the search will still take place
 }
 
 /**
  * here, we insert an element according to its value, if x > j, then x will move ahead of j positionwise
-*/
-int insertion_sort(int x[])
+ */
+int insertion_sort(int x[]);
+
+/**
+ * uses the divide and conquer approach
+ * divide the array / 2
+ * left = l => mid
+ * right = mid + 1 => r
+ */
+int merge_sort(int A[], int l, int r)
 {
-    
+    /**
+        if (l >= r)
+            return
+        int mid = l + (r - 1) / 2;
+        merge_sort(A, l, mid);
+        merge_sort(A, mid + 1, r);
+        combine(A, l, mid, r);
+    */
+   
 }
 
+int quick_sort(int x[]);
 int main(void)
 {
     return (0);
