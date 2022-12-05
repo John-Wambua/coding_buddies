@@ -1,6 +1,6 @@
 /**
  * if n is odd, then the median is the middle element
- * if n is even, then the median is the avaerage of the two middle elemenyts
+ * if n is even, then the median is the average of the two middle elements
  *
  * approach:
  * merge the two arrays
