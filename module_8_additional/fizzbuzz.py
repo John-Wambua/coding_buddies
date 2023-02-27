@@ -19,6 +19,8 @@ def non_modulus_solution(n):
     buzzCount = 0
 
     for i in range(1, n+1):
+        fizzCount += 1
+        buzzCount += 1
         if fizzCount == 3 and buzzCount == 5:
             output.append('FizzBuzz')
             fizzCount = 0
@@ -46,6 +48,8 @@ def string_concatenation_solution(n, m=1):
             s = s + 'Fizz'
         if i % 5 == 0:
             s = s + 'Buzz'
+        if i % 7 == 0:
+            s = s + 'Jazz'
         if s == '':
             s = s + str(i)
 
@@ -75,6 +79,7 @@ def hash_table_solution(n, m=1):
 
     return output
 
+# print(non_modulus_solution(15))
 # print(hash_table_solution(110, 100))
-# print(string_concatenation_solution(110, 100))
+print(string_concatenation_solution(120, 100))
 # print(modulus_solution(20))

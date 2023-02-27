@@ -54,7 +54,7 @@ def binary_search_solution(arr, rows, cols):
 
 # NESTED LOOP APPROACH
 # since each row is sorted, the row with the most ones will have 
-# its first one closest to the right end of the row. so we can scan 
+# its first one closest to the left end of the row. so we can scan 
 # the array somewhat diagonally from top to bottom, left to right, 
 # looking for which row has its first one farthest to the left
 
